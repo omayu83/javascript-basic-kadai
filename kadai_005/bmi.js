@@ -1,5 +1,5 @@
 //変数の宣言・値の代入
-let bmi = 68 / (1.7 * 1.7); // 22.20408163265306
-
-//コンソールへの出力
-console.log(bmi); // 22.20408163265306
+let weight = 68; // 体重の変数
+let height = 1.7; // 身長の変数
+let bmi = weight / (height * height); // BMIの計算
+console.log(bmi); //コンソールへの出力
